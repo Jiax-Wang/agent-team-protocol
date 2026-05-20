@@ -28,7 +28,7 @@
 
 ```bash
 # 安装
-curl -fsSL https://raw.githubusercontent.com/obra/agent-team-protocol/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Jiax-Wang/agent-team-protocol/main/install.sh | bash
 
 # 创建团队
 agent-team init 杂志社

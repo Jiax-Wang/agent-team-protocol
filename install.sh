@@ -4,7 +4,7 @@
 
 set -e
 
-REPO_URL="${AGENT_TEAM_REPO:-https://github.com/obra/agent-team-protocol.git}"
+REPO_URL="${AGENT_TEAM_REPO:-https://github.com/Jiax-Wang/agent-team-protocol.git}"
 INSTALL_DIR="${HOME}/.agent-team-protocol"
 BIN_LINK="${HOME}/.local/bin/agent-team"
 BIN_LINK_ALT="/usr/local/bin/agent-team"
