@@ -1,0 +1,15 @@
+{
+  "name": "my-project-team",
+  "project": "",
+  "created": "2026-05-19T10:00:00Z",
+  "members": [
+    { "id": "architect", "role": "Architecture design and technical planning", "status": "idle" },
+    { "id": "implementer", "role": "Code implementation and unit testing", "status": "idle" },
+    { "id": "reviewer", "role": "Code review and integration testing", "status": "idle" }
+  ],
+  "settings": {
+    "max_parallel_tasks": 3,
+    "task_claim_timeout_minutes": 30,
+    "coordination_mode": "file"
+  }
+}

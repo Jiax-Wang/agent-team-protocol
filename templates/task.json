@@ -1,0 +1,16 @@
+{
+  "id": "task-001",
+  "title": "Implement user authentication API",
+  "description": "Add JWT-based authentication endpoints: POST /login, POST /register, GET /me. Use bcrypt for password hashing, return JWT with 24h expiry.",
+  "priority": "high",
+  "dependencies": [],
+  "assigned_to": null,
+  "parent_task": null,
+  "tags": ["api", "auth", "backend"],
+  "created_at": "2026-05-19T10:00:00Z",
+  "claimed_at": null,
+  "completed_at": null,
+  "artifact_path": null,
+  "result_summary": "",
+  "block_reason": ""
+}
