@@ -1,0 +1,64 @@
+{
+  "name": "YOLO水渍检测模型开发团队",
+  "version": "2.0",
+  "description": "融合 Agent Team v2 引擎 — 数据集构建、模型训练、质量评估、方法论审查",
+  "settings": {
+    "convergence_min_rounds": 5,
+    "convergence_max_rounds": 15,
+    "challenge_max_rounds": 3,
+    "signoff_timeout_hours": 48,
+    "signoff_discussion_minutes": 15,
+    "think_mode": true
+  },
+  "roles": {
+    "pm": {
+      "name": "项目经理",
+      "emoji": "📋",
+      "color": "yellow",
+      "description": "任务调度、分歧裁决、唯一与用户的接口",
+      "file": "roles/pm.md"
+    },
+    "algo": {
+      "name": "算法工程师",
+      "emoji": "🔧",
+      "color": "cyan",
+      "description": "模型训练、超参调优、架构选型、实验设计",
+      "file": "roles/algo.md"
+    },
+    "data": {
+      "name": "数据工程师",
+      "emoji": "📊",
+      "color": "green",
+      "description": "数据集构建、标注质量控制、数据泄漏审查、ROI分析",
+      "file": "roles/data.md"
+    },
+    "reviewer": {
+      "name": "合规审查员",
+      "emoji": "📏",
+      "color": "blue",
+      "description": "项目规范合规、路径命名检查、硬约束红线审查",
+      "file": "roles/reviewer.md"
+    },
+    "critic": {
+      "name": "杠精",
+      "emoji": "🎯",
+      "color": "red",
+      "description": "方法论审查员，只找漏洞，不同意。检查实验设计、对照组、统计有效性",
+      "file": "roles/critic.md"
+    }
+  },
+  "modes": {
+    "debate": {
+      "description": "实时同步辩论模式：所有角色同时发言，逐轮收敛",
+      "workflow": "用户提问 → algo/data/critic/reviewer 初始发言 → 杠精抨击 → 自由辩论 → 收敛 → PM总结"
+    },
+    "signoff": {
+      "description": "正式签字模式：重大决策需要四方投票",
+      "workflow": "PM发起提案 → 四方审查 → 讨论窗口 → 正式投票 → PM裁决"
+    },
+    "task": {
+      "description": "异步任务模式：PM分配任务，角色通过inbox通信",
+      "workflow": "PM创建任务 → 写入inbox → 角色认领 → 执行 → review → 完成"
+    }
+  }
+}
