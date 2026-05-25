@@ -1,1 +1,6 @@
 .agent-team/
+__pycache__/
+inbox/
+state/
+runs/
+*.pyc
